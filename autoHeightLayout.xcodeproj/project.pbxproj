@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		5ED916581B1305080095580F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED916571B1305080095580F /* main.m */; };
 		5ED9165B1B1305080095580F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED9165A1B1305080095580F /* AppDelegate.m */; };
-		5ED9165E1B1305080095580F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED9165D1B1305080095580F /* ViewController.m */; };
 		5ED916611B1305080095580F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9165F1B1305080095580F /* Main.storyboard */; };
 		5ED916631B1305080095580F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED916621B1305080095580F /* Images.xcassets */; };
 		5ED916661B1305080095580F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ED916641B1305080095580F /* LaunchScreen.xib */; };
 		5ED916721B1305080095580F /* autoHeightLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED916711B1305080095580F /* autoHeightLayoutTests.m */; };
 		5ED916801B1472C30095580F /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED9167F1B1472C30095580F /* UITableView+FDTemplateLayoutCell.m */; };
+		5ED916831B1473520095580F /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED916821B1473520095580F /* RootTableViewController.m */; };
+		5ED916861B1473B30095580F /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED916851B1473B30095580F /* CustomCell.m */; };
+		5ED916891B1496A00095580F /* CellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED916881B1496A00095580F /* CellData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +35,6 @@
 		5ED916571B1305080095580F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5ED916591B1305080095580F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5ED9165A1B1305080095580F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5ED9165C1B1305080095580F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5ED9165D1B1305080095580F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5ED916601B1305080095580F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5ED916621B1305080095580F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5ED916651B1305080095580F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,6 +43,12 @@
 		5ED916711B1305080095580F /* autoHeightLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autoHeightLayoutTests.m; sourceTree = "<group>"; };
 		5ED9167E1B1472C30095580F /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
 		5ED9167F1B1472C30095580F /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		5ED916811B1473520095580F /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		5ED916821B1473520095580F /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		5ED916841B1473B30095580F /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		5ED916851B1473B30095580F /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		5ED916871B1496A00095580F /* CellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellData.h; sourceTree = "<group>"; };
+		5ED916881B1496A00095580F /* CellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +93,12 @@
 			children = (
 				5ED916591B1305080095580F /* AppDelegate.h */,
 				5ED9165A1B1305080095580F /* AppDelegate.m */,
-				5ED9165C1B1305080095580F /* ViewController.h */,
-				5ED9165D1B1305080095580F /* ViewController.m */,
+				5ED916811B1473520095580F /* RootTableViewController.h */,
+				5ED916821B1473520095580F /* RootTableViewController.m */,
+				5ED916841B1473B30095580F /* CustomCell.h */,
+				5ED916851B1473B30095580F /* CustomCell.m */,
+				5ED916871B1496A00095580F /* CellData.h */,
+				5ED916881B1496A00095580F /* CellData.m */,
 				5ED9165F1B1305080095580F /* Main.storyboard */,
 				5ED916621B1305080095580F /* Images.xcassets */,
 				5ED916641B1305080095580F /* LaunchScreen.xib */,
@@ -232,10 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ED9165E1B1305080095580F /* ViewController.m in Sources */,
 				5ED916801B1472C30095580F /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				5ED916891B1496A00095580F /* CellData.m in Sources */,
 				5ED9165B1B1305080095580F /* AppDelegate.m in Sources */,
 				5ED916581B1305080095580F /* main.m in Sources */,
+				5ED916831B1473520095580F /* RootTableViewController.m in Sources */,
+				5ED916861B1473B30095580F /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
