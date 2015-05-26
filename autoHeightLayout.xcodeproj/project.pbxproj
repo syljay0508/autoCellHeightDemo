@@ -14,6 +14,7 @@
 		5ED916631B1305080095580F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED916621B1305080095580F /* Images.xcassets */; };
 		5ED916661B1305080095580F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ED916641B1305080095580F /* LaunchScreen.xib */; };
 		5ED916721B1305080095580F /* autoHeightLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED916711B1305080095580F /* autoHeightLayoutTests.m */; };
+		5ED916801B1472C30095580F /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED9167F1B1472C30095580F /* UITableView+FDTemplateLayoutCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5ED9166B1B1305080095580F /* autoHeightLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoHeightLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED916701B1305080095580F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ED916711B1305080095580F /* autoHeightLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autoHeightLayoutTests.m; sourceTree = "<group>"; };
+		5ED9167E1B1472C30095580F /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		5ED9167F1B1472C30095580F /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		5ED916491B1305080095580F = {
 			isa = PBXGroup;
 			children = (
+				5ED9167D1B1472C30095580F /* Classes */,
 				5ED916541B1305080095580F /* autoHeightLayout */,
 				5ED9166E1B1305080095580F /* autoHeightLayoutTests */,
 				5ED916531B1305080095580F /* Products */,
@@ -117,6 +121,15 @@
 				5ED916701B1305080095580F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5ED9167D1B1472C30095580F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5ED9167E1B1472C30095580F /* UITableView+FDTemplateLayoutCell.h */,
+				5ED9167F1B1472C30095580F /* UITableView+FDTemplateLayoutCell.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED9165E1B1305080095580F /* ViewController.m in Sources */,
+				5ED916801B1472C30095580F /* UITableView+FDTemplateLayoutCell.m in Sources */,
 				5ED9165B1B1305080095580F /* AppDelegate.m in Sources */,
 				5ED916581B1305080095580F /* main.m in Sources */,
 			);
