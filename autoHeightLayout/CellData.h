@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface CellData : NSObject
 
 @property (nonatomic, strong) NSString *content;
-@property (nonatomic, strong) NSString *image;
+@property (nonatomic, strong) UIImage *image;
 
 @end

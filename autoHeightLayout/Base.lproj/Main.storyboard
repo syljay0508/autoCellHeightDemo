@@ -56,6 +56,9 @@
                                         <constraint firstItem="I6r-uh-IBk" firstAttribute="leading" secondItem="f5n-AI-h7V" secondAttribute="leading" id="yI8-HL-GVr"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="content" destination="I6r-uh-IBk" id="rbe-g0-Ib8"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="content+image" rowHeight="227" id="fKm-33-hBM" userLabel="content+image" customClass="CustomCell">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -106,6 +109,10 @@
                                         <constraint firstItem="UFW-xe-72f" firstAttribute="leading" secondItem="ICp-Um-8hm" secondAttribute="leading" constant="15" id="unQ-6f-N6e"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="content" destination="7Jd-R8-lqI" id="FTe-HR-MHa"/>
+                                    <outlet property="contentImage" destination="2uU-Bh-dx3" id="jcp-hZ-NUy"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="image" rowHeight="200" id="MLu-iZ-Md3" userLabel="image" customClass="CustomCell">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -147,6 +154,9 @@
                                         <constraint firstItem="ncJ-Ky-4oL" firstAttribute="leading" secondItem="lKr-go-ayv" secondAttribute="leading" id="mdq-be-LMZ"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="contentImage" destination="ncJ-Ky-4oL" id="ngc-pE-G5e"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

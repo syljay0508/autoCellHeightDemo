@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>6D763D5D-2298-439D-A926-15495BA59A0F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>autoHeightLayout</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>424BA3DBAD0ED5C150EC2FD405798B111A609FE5</key>
 		<string>github.com:syljay0508/autoCellHeightDemo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>autoHeightLayout.xcodeproj/project.xcworkspace</string>
+	<string>autoHeightLayout.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>424BA3DBAD0ED5C150EC2FD405798B111A609FE5</key>

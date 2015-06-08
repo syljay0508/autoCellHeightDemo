@@ -10,6 +10,8 @@
 
 @interface CustomCell ()
 
+@property (weak, nonatomic) IBOutlet UILabel *content;
+@property (weak, nonatomic) IBOutlet UIImageView *contentImage;
 
 
 @end
@@ -23,6 +25,13 @@
     self.contentView.bounds = [UIScreen mainScreen].bounds;
 }
 
-
+- (void)setData:(CellData *)data{
+    if (data.content) {
+        self.content.text = data.content;
+    }
+    if (data.image) {
+        self.contentImage.image = data.image;
+    }
+}
 
 @end
